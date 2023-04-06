@@ -1,0 +1,94 @@
+/* tag selector*/
+body {
+    background-color: bisque;
+}
+
+/* Dimension: px, %, em 
+   Color: name,#00000,rgb()*/
+img {
+    
+    height: 100px;
+    width: 100px;
+     
+}
+
+p {
+    color:blue;
+}
+ 
+/*class selector*/
+.first {
+    color: crimson;
+}
+
+.red {
+    background-color: green;
+    position:fixed;
+    bottom: 40px;
+    /* margin-top: 40px; */
+}
+.green {
+    background-color: red;
+    
+}
+
+.circular {
+    border-radius: 100%;
+    position:
+    bottom: 30px;
+    right:30px;
+}
+
+/*id selector*/
+#special {
+    font-weight:bold ;
+    color:goldenrod;
+    background-color: rgb(25, 85, 118);
+}
+
+/*grouping selector*/
+.group, h1 {
+    background-color: aqua;
+}
+
+/*pseudo selectors*/
+.apple {
+    color:brown;
+}
+
+.apple:hover{
+    background-color: aquamarine;
+    color:darkorchid
+}
+
+/*div and display*/
+
+.new {
+    height: 100px;
+    width: 100px;
+}
+
+.firstbox {
+    background-color: red;
+    position: relative;
+    top:120px;
+    left:30px;
+
+}
+.secondbox {
+    background-color: green;
+    /* margin-inline-start: 100px; */
+    /* visibility: hidden; */
+    /* display:none; */
+
+    
+}
+.thirdbox {
+    background-color: blue;
+    /* margin-inline-start: 200px;
+    margin-block-start: -200px; */
+    position: relative;
+    bottom:50px;
+    left:60px;
+
+}
