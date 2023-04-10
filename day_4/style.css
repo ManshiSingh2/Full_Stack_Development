@@ -34,7 +34,7 @@ p {
 
 .circular {
     border-radius: 100%;
-    position:
+    position: relative;
     bottom: 30px;
     right:30px;
 }
