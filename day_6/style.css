@@ -1,0 +1,75 @@
+/* defining global variables */
+:root {
+    --primaryColor: #FFE6C7;
+    --background-color:#454545;
+    --titlefont:'Dancing Script', cursive;
+    --textfont: 'Courgette', cursive;
+    --headingfont:'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0px;
+    
+    
+}
+
+.top-section {
+    background-color: var(--background-color);
+    color: var(--primaryColor);
+    text-align: center;
+    padding-top:50px;
+
+     
+}
+.text {
+    margin-top: 100px;  
+}
+
+.heading {
+    /* font-family:Georgia, 'Times New Roman', serif; */
+    /* font-family: 'Noto Serif', serif; */
+    font-family:var(--titlefont);   
+    
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size:2.5em;
+    
+}
+
+/* font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.bio {
+    font-family:var(--textfont);
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: 1.2em; /*1em=16px */
+    
+}
+
+.top-cloud {
+    width:100px;
+    position:absolute;
+    margin-block-start: 150px;
+    margin-left:200px;
+    
+}
+.bottom-cloud {
+    width:100px;
+    /* position:relative;
+    margin-block-end: 250px;
+    margin-right: 150px;
+    */
+ 
+
+    
+}
+.mountain {
+    width: 500px;
+
+    
+}
+img {
+    margin-bottom: 0px;
+}

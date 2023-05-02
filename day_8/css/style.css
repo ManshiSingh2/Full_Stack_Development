@@ -1,0 +1,135 @@
+/* defining global variables */
+:root {
+    --primaryColor: #146C94;
+    --background-color:#93C6E7;
+    --mytitlefont:'Dancing Script', cursive;
+    --titlefont:'Sacramento', cursive;
+    --font: 'Courgette', cursive;
+    --textfont:'Montserrat', sans-serif;
+}
+body{
+    margin: 0px;  
+    color: var(--primaryColor);
+    font-family: var(--textfont);
+    line-height: 2;
+
+}
+.top-section {
+    background-color: var(--background-color);
+    
+    text-align: center;
+    padding-top:50px;  
+}
+.heading {
+    /* font-family:Georgia, 'Times New Roman', serif; */
+    /* font-family: 'Noto Serif', serif; */
+    font-family:var(--titlefont);   
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size:4rem;
+    margin-top: 100px; 
+    
+}
+/* font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif; */
+h2 {
+    font-family:var(--textfont);
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    font-size: 2rem; /*1em=16px */ 
+}
+.top-cloud {
+    width:120px;
+    position:absolute;
+    margin-block-start: 30px;
+    margin-left:500px;   
+}
+.bottom-cloud {
+    width:120px;
+    position:relative;
+    margin-block-end: 250px;
+    margin-right: 200px;  
+}
+.mountain {
+    width: 350px;
+    margin-right:400px;
+    margin-bottom: 0;
+}
+/* img {
+    margin-bottom: 0px;
+    
+} */
+
+.dp{
+    border-radius: 100%;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
+.middle{
+    margin: 50px auto 100px auto;
+    text-align: center;
+    width: 60%;
+}
+.intro{
+    margin: auto;
+    width: 75%;
+    
+}
+
+hr{
+    margin: 100px auto 100px auto;
+    /* border-top:dotted #F9F5EB 5px; */
+    border:dotted #F9F5EB 10px;
+    border-bottom:none;
+    width:5%;
+}
+.skills{
+    width:150px;
+    margin: auto;
+
+}
+.left{
+    float:left;
+    margin-right: 40px;
+}
+.right{
+    float:right;
+    margin-left: 40px;
+}
+.myskills{
+    margin-bottom: 60px;
+}
+.skill-row {
+    text-align: left;
+    margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.contact {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.contact:hover{
+    background-color: rgb(72, 101, 101);
+}
+.bottom-section{
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 40px;
+}
+.social-link{
+    margin:20px 40px;
+    font-size: 20px ;
+}
+.copyright{
+    color:white;
+    
+    font-size: 0.75rem;
+}
