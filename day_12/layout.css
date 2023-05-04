@@ -1,0 +1,54 @@
+body{
+    background-color:aliceblue;
+    text-align: center;
+    color: white;
+}
+.container{
+    /* height: 1500px; */
+    /* width: 1500px; */
+    display:flex;
+    flex-direction: row; /*by default row hoti he*/
+     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    column-gap: 20px;
+    row-gap: 10px;
+
+} 
+
+.box{
+    height:100px;
+    width: 100px;
+    
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+    width:300px;
+}
+
+.pink{
+    background-color: pink;
+}
+
+.cyan{
+    background-color: cyan;
+    height:280px;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.purple{
+    background-color: purple;
+}
