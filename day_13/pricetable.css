@@ -1,0 +1,19 @@
+body{
+    background-color:aquamarine;
+}
+.container{
+    display: flex;
+    column-gap: 30px;    
+}
+
+add-to-cart{
+    text-decoration: none;
+    background-color: red;
+    background-image: linear-gradient(
+        
+        brown
+        red
+
+    );
+}
+    
