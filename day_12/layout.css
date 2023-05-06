@@ -12,6 +12,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     /* gap: 30px; */
+    
 
     column-gap: 20px;
     row-gap: 10px;
@@ -36,21 +37,27 @@ body{
 .green{
     background-color: green;
     width:300px;
+   
 }
 
 .pink{
     background-color: pink;
+    order: 3;
+    flex-grow: 2;
 }
 
 .cyan{
     background-color: cyan;
     height:280px;
+    flex-grow: 3;
 }
 
 .orange{
     background-color: orange;
+    order: 1;
 }
 
 .purple{
     background-color: purple;
+    order: 4;
 }
